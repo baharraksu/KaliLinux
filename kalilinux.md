@@ -42,7 +42,8 @@ sayac=0
 				if(($sayac>=$2))
 				then
 					((dosyaSayaci++))
-					sayac=1 				fi
+					sayac=1 				
+				fi
 				echo $line >> $uzantisizDosyaAdi-$dosyaSayaci$Nokta$dosyaUzantisi
 				break
 			done
